@@ -1,0 +1,36 @@
+{
+  "name": "swagger-enum",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Generate readable enum definitions for Swagger",
+  "license": "MIT",
+  "repository": "bendrucker/swagger-enum",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "swagger",
+    "json",
+    "schema",
+    "markdown",
+    "enum",
+    "documentation",
+    "openapi"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "xtend": "~4.0.1"
+  }
+}
