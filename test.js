@@ -9,7 +9,7 @@ test(function (t) {
     {
       title: 'Num',
       type: 'integer',
-      description: 'beep<br><br><ul><li><strong>0: </strong>boop</li></ul>',
+      description: 'beep<br><ul><li><strong>0: </strong>boop</li></ul>',
       enum: [
         '0'
       ]

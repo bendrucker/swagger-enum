@@ -21,5 +21,5 @@ function createDescription (original, values) {
   return Object.keys(values).reduce(function (acc, key, index) {
     if (!index) acc += '<ul>'
     return acc + `<li><strong>${key}: </strong>${values[key]}</li>`
-  }, original ? original + '<br><br>' : '') + '</ul>'
+  }, original ? original + '<br>' : '') + '</ul>'
 }
