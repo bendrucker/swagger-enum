@@ -1,7 +1,7 @@
 {
   "name": "swagger-enum",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate readable enum definitions for Swagger",
   "license": "MIT",
   "repository": "bendrucker/swagger-enum",
