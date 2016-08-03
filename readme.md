@@ -13,31 +13,38 @@ $ npm install --save swagger-enum
 ## Usage
 
 ```js
-var swaggerEnum = require('swagger-enum')
+var Enum = require('swagger-enum')
 
-swaggerEnum('input')
-//=> output
+Enum({title: 'Status', description: 'The status'}, {
+  0: 'off',
+  1: 'on'  
+})
+//=> {title: ..., type: 'integer', description: ...}
+```
+
+The description will be:
+
+```html
+The status<ul><li><strong>0: </strong>off</li><li><strong>1: </strong>on</li></ul>
 ```
 
 ## API
 
-#### `swaggerEnum(input, [options])` -> `output`
+#### `Enum([data], values)` -> `object`
 
-##### input
+##### data
 
 *Required*  
-Type: `string`
+Type: `object`
 
-Lorem ipsum.
+Initial data for the schema.
 
-##### options
+##### values
 
-###### foo
+*Required*  
+Type: `object`
 
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
+An object containing enum values (the keys are integers).
 
 
 ## License
