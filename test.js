@@ -11,7 +11,7 @@ test(function (t) {
       type: 'integer',
       description: 'beep<br><ul><li><strong>0: </strong>boop</li></ul>',
       enum: [
-        '0'
+        0
       ]
     },
     'creates html description and schema'

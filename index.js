@@ -1,6 +1,7 @@
 'use strict'
 
 const extend = require('xtend')
+const Integer = require('parse-int')
 
 module.exports = swaggerEnum
 
@@ -13,7 +14,7 @@ function swaggerEnum (data, values) {
   return extend(data, {
     description: createDescription(data.description, values),
     type: 'integer',
-    enum: Object.keys(values)
+    enum: Object.keys(values).map(Integer)
   })
 }
 
