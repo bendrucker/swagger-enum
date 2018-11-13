@@ -1,4 +1,4 @@
-# swagger-enum [![Build Status](https://travis-ci.org/bendrucker/swagger-enum.svg?branch=master)](https://travis-ci.org/bendrucker/swagger-enum)
+# swagger-enum [![Build Status](https://travis-ci.org/bendrucker/swagger-enum.svg?branch=master)](https://travis-ci.org/bendrucker/swagger-enum) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/swagger-enum.svg)](https://greenkeeper.io/)
 
 > Generate readable enum definitions for Swagger
 
