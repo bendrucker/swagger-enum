@@ -5,7 +5,7 @@ var swaggerEnum = require('./')
 
 test(function (t) {
   t.deepEqual(
-    swaggerEnum({title: 'Num', description: 'beep'}, {0: 'boop'}),
+    swaggerEnum({ title: 'Num', description: 'beep' }, { 0: 'boop' }),
     {
       title: 'Num',
       type: 'integer',
